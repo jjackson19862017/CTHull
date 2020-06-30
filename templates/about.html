@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ page_title }}
+{% endblock title %}
+{% block content %}
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-4">A Bit About Us</h1>
+        <p class="lead"><EM><BR></EM>Choosing a reputable funeral director who you can depend on is very important.<BR>
+        </P>
+        <P>
+            At the time of a funeral, families put great trust in the funeral director, to ensure that
+            arrangements are carried through with the upmost dignity and professionalism.
+        </p>
+        <img src="{{ url_for('static',filename='img/whiterose.jpg') }}" alt="..." class="img-thumbnail">
+        <p class="lead">"Our View"</STRONG></P>
+        <P>Over the years, we have seen so much change in funerals. No two funerals are the same. Each one unique and
+            special. With our friendly and down to earth manner, we will help you with a service to truly suit your
+            loved one, with confidence that the day will run smoothly for all involved.</p>
+    </div>
+</div>
+<div class="card mb-3" style="max-width: 100%;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="375" height="250" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=2%20Birch%20way&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://thevpndeal.com/nordvpn-coupon/">nordvpn coupon</a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 250;
+                        width: 375px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 250px;
+                        width: 375px;
+                    }
+                </style>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Contact Us</h5>
+                <p class="card-text">2 Birchway<br>Poulton-le-Fylde,<br>Lancashire<br>FY6 7SF</p>
+                <p class="card-text"><small class="text-muted">Telephone: 01253 899845</small></p>
+                <p class="card-text"><small class="text-muted">Email: chris-hull-funeral-service@hotmail.co.uk</small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

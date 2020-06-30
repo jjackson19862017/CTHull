@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ page_title }}
+{% endblock title %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <h1 class="display-4">Treat Us As Family. <BR> We Will Always Be Here When You Need Us</h1>
+        <p class="lead">When someone dies, there are many decisions and arrangements to be made at a time of personal
+            distress.<BR><BR>No one can show or know what you are going through, as each persons experience and feeling
+            is different. In a caring way however, we will advise, and guide you through the necessities at this trying
+            time.<BR><BR><STRONG>"The Family"<BR></STRONG>We are a third generation firm of friendly and local funeral
+            directors, and pride ourself on being Fylde based since the generation began. Tommy Hull began his funeral
+            company in the 1950's. His son Chris started the company C. T. Hull Funeral Service NAFD dip in 1990, and
+            Chris' daughter Claire joined in 2005.</P><EM>Poulton Funeral Service</EM></p>
+        <img src="{{ url_for('static',filename='img/HorseDrawn.jpg') }}" alt="..." class="img-thumbnail">
+        <p class="lead"><BR><STRONG>"Our Promise To You"<BR></STRONG>We are a truly independent firm devoted to family, not
+            profits. Large concerns answer to shareholders; we answer to you. We know our business will do well when we
+            serve you well.<BR><BR><STRONG>"Private Chapels"<BR></STRONG>Our tasteful, calm chapels of repose are
+            available to visit during 8am - 5pm. The chapels of repose are situated in the Blackpool area or
+            Poulton-le-Fylde.<BR><BR>Other services we advise and arrange on your behalf are:<BR><STRONG>Newspaper
+                notices<BR>Donations<BR>Hearse and Limousines<BR>Catering<BR>Coffin <BR>Funeral Service Sheets</STRONG>
+        </p>
+    </div>
+</div>
+{% endblock content %}
